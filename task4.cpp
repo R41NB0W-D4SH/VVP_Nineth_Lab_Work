@@ -8,8 +8,8 @@ int main()
 	setlocale(0, "");
 	int a, b, c, d;
 	string hndrd [9] = { "Сто", " Двести", " Триста", " Четыреста", " Пятьсот", " Шестьсот", " Семьсот", " Восемьсот", " Девятьсот" };
-	string dec [8] = { " Двадцать", " Тридцать", " Сорок", " Пять", " shestdecyat", " semdecyat", " vosemdecyat", " devyanosto" };
-	string single [9] = { " odin", " dva", " tri", " chetyre", " pyat", " shest", "sem", " vosem", " devyat" };
+	string dec [8] = { " Двадцать", " Тридцать", " Сорок", " Пятьдесят", " Шестьдесят", " Семьдесят", " Восемьдесят", " Девяносто" };
+	string single [9] = { " Один", " Два", " Три", " Четыре", " Пять", " Шесть", "Семь", " Восемь", " Девять" };
 	
 	cout << "Vvedite chislo v diapozone ot 100 do 999." << endl;
 	cin >> a;
