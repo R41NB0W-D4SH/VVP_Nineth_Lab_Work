@@ -14,49 +14,51 @@ int main()
 	cout << "Введите число в диапозоне от 100 до 999." << endl;
 	cin >> a;
 	
-	b = (a / 100) - 1;
-	c = ((a % 100) / 10 )- 2;
-	d = (a % 10) - 1;
-	
-	if (a % 100 == 11)
+	if (a >= 100 && <= 999)
 	{
-		cout << hndrd[b] << " Одиннадцать " << endl;
-	}
-	else if (a % 100 == 12)
-	{
-		cout << hndrd[b] << " Двенадцать " << endl;
-	}
-	else if (a % 100 == 13)
-	{
-		cout << hndrd[b] << " Тринадцать " << endl;
-	}
-	else if (a % 100 == 14)
-	{
-		cout << hndrd[b] << " Четырнадцать " << endl;
-	}
-	else if (a % 100 == 15)
-	{
-		cout << hndrd[b] << " Пятнадцать " << endl;
-	}
-	else if (a % 100 == 16)
-	{
-		cout << hndrd[b] << " Шестнадцать " << endl;
-	}
-	else if (a % 100 == 17)
-	{
-		cout << hndrd[b] << " Семнадцать " << endl;
-	}
-	else if (a % 100 == 18)
-	{
-		cout << hndrd[b] << " Восемнадцать " << endl;
-	}
-	else if (a % 100 == 19)
-	{
-		cout << hndrd[b] << " Девятнадцать " << endl;
-	}
-	else
-	{
-	cout << hndrd[b] << dec[c] << single[d] << endl;
+		b = (a / 100) - 1;
+		c = ((a % 100) / 10 )- 2;
+		d = (a % 10) - 1;
+		if (a % 100 == 11)
+		{
+			cout << hndrd[b] << " Одиннадцать " << endl;
+		}
+		else if (a % 100 == 12)
+		{
+			cout << hndrd[b] << " Двенадцать " << endl;
+		}
+		else if (a % 100 == 13)
+		{
+			cout << hndrd[b] << " Тринадцать " << endl;
+		}
+		else if (a % 100 == 14)
+		{
+			cout << hndrd[b] << " Четырнадцать " << endl;
+		}
+		else if (a % 100 == 15)
+		{
+			cout << hndrd[b] << " Пятнадцать " << endl;
+		}
+		else if (a % 100 == 16)
+		{
+			cout << hndrd[b] << " Шестнадцать " << endl;
+		}
+		else if (a % 100 == 17)
+		{
+			cout << hndrd[b] << " Семнадцать " << endl;
+		}
+		else if (a % 100 == 18)
+		{
+			cout << hndrd[b] << " Восемнадцать " << endl;
+		}
+		else if (a % 100 == 19)
+		{
+			cout << hndrd[b] << " Девятнадцать " << endl;
+		}
+		else
+		{
+		cout << hndrd[b] << dec[c] << single[d] << endl;
+		}
 	}
 	
 	system("pause");
