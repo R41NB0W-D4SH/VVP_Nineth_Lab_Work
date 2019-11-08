@@ -11,7 +11,7 @@ int main()
 	string dec [8] = { " Двадцать", " Тридцать", " Сорок", " Пятьдесят", " Шестьдесят", " Семьдесят", " Восемьдесят", " Девяносто" };
 	string single [9] = { " Один", " Два", " Три", " Четыре", " Пять", " Шесть", "Семь", " Восемь", " Девять" };
 	
-	cout << "Vvedite chislo v diapozone ot 100 do 999." << endl;
+	cout << "Введите число в диапозоне от 100 до 999." << endl;
 	cin >> a;
 	
 	b = (a / 100) - 1;
@@ -20,39 +20,39 @@ int main()
 	
 	if (a % 100 == 11)
 	{
-		cout << hndrd[b] << " odinnadzat " << endl;
+		cout << hndrd[b] << " Одиннадцать " << endl;
 	}
 	else if (a % 100 == 12)
 	{
-		cout << hndrd[b] << " dvenadzat " << endl;
+		cout << hndrd[b] << " Двенадцать " << endl;
 	}
 	else if (a % 100 == 13)
 	{
-		cout << hndrd[b] << " trinadzat " << endl;
+		cout << hndrd[b] << " Тринадцать " << endl;
 	}
 	else if (a % 100 == 14)
 	{
-		cout << hndrd[b] << " chetyrnadzat " << endl;
+		cout << hndrd[b] << " Четырнадцать " << endl;
 	}
 	else if (a % 100 == 15)
 	{
-		cout << hndrd[b] << " pyatnadzat " << endl;
+		cout << hndrd[b] << " Пятнадцать " << endl;
 	}
 	else if (a % 100 == 16)
 	{
-		cout << hndrd[b] << " shestnadzat " << endl;
+		cout << hndrd[b] << " Шестнадцать " << endl;
 	}
 	else if (a % 100 == 17)
 	{
-		cout << hndrd[b] << " semnadzat " << endl;
+		cout << hndrd[b] << " Семнадцать " << endl;
 	}
 	else if (a % 100 == 18)
 	{
-		cout << hndrd[b] << " vosemnadzat " << endl;
+		cout << hndrd[b] << " Восемнадцать " << endl;
 	}
 	else if (a % 100 == 19)
 	{
-		cout << hndrd[b] << " devyatnadzat " << endl;
+		cout << hndrd[b] << " Девятнадцать " << endl;
 	}
 	else
 	{
